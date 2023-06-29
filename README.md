@@ -2,7 +2,7 @@
 
 ## Usage:
 
-```hcl
+
 module "ec2" {
   source  = ""
   version = "0.0.1"
@@ -17,4 +17,3 @@ module "ec2" {
   key_name = "ohio-key"
   instance_type = "t2.micro"
 }
-```
